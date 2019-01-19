@@ -2,7 +2,21 @@ package cn.neu;
 
 import java.util.Arrays;
 
-public class QuickSort implements ISort{
+/**
+ * @author shaoqi.jia
+ * 快速排序
+ * 平均时间复杂度：Ο(nlogn)
+ * 最坏的时间复杂度：Ο(n^2)
+ * 思想：在冒泡的基础上采用递归的分治法
+ * 优点：
+ * 快速，虽然时间复杂度最坏情况为 Ο(n^2) ，但是在
+ * 大多数情况下都比平均时间复杂度为 Ο(nlogn) 的排序算法要好，
+ * 原因是平摊期望时间是 O(nlogn)，且 O(nlogn) 记号中隐含
+ * 的常数因子很小，比复杂度稳定等于 O(nlogn) 的归并排序要小
+ * 很多。所以，对绝大多数顺序性较弱的随机数列而言，快速排序总
+ * 是优于归并排序。
+ */
+public class QuickSort implements ISort {
 
     public static int[] sort(int[] arr) {
         int[] arrCpy = Arrays.copyOf(arr, arr.length);
