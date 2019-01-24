@@ -2,6 +2,15 @@ package cn.neu;
 
 import java.util.Arrays;
 
+/**
+ * @author JsZero
+ * 堆排序
+ * 时间复杂度：Ο(nlogn)
+ * 过程：
+ * 用大顶堆先进行排序一次，把最大放到完全二叉树的末尾，
+ * 再将剩下的len-1部分进行排序，每次把最大的放到对应
+ * 的位置，排序len-1次结束
+ */
 public class HeapSort {
     public static int[] sort(int[] sourceArray) {
         // 对 arr 进行拷贝，不改变参数内容
@@ -9,13 +18,13 @@ public class HeapSort {
 
         int len = arr.length;
 
+        //
         for (int i = len / 2 - 1; i >= 0; i--) {
             heapify(arr, i, len);
         }
 
         for (int i = len - 1; i > 0; i--) {
             swap(arr, 0, i);
-//            len--;
             heapify(arr, 0, i);
         }
         return arr;
