@@ -11,7 +11,7 @@ import java.util.Arrays;
  * 过程：
  * 分治地递归调用partition函数：在start和end之间选取一个index位置，交换end和index位置的（最后要换回来的），
  * 然后从start向end出发，分别记录两个位置index（当前运行到的位置），small（最后一个比选取的初始index位置，当
- * 前在end位置的数字小的左后一个数字下标），当index遍历start到end之间发现index指向的数字小于end位置的数字时，
+ * 前在end位置的数字小的最后一个数字下标），当index遍历start到end之间发现index指向的数字小于end位置的数字时，
  * small+1，并将此事small下标的数字与index下标数字交换位置，遍历结束之后small下标以及小于small下标的数字都小
  * 于end位置的数字，这时small+1，并将small位置与end位置数字交换，即把最初交换的两个数字交换回来（此时当前位置
  * 左侧都是小于它的数字，右侧都是大于它的数字，再对两侧分别递归调用partition函数即可）
@@ -43,7 +43,7 @@ public class QuickSort {
         int index = (start + end) / 2;
         swap(arr, index, end);
         int small = start - 1;
-        for (index = start; index < end; index++) {
+        for (index = start; index < end ; index++) {
             if (arr[index] < arr[end]) {
                 small++;
                 if (index > small) {

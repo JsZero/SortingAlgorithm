@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab77f19-451e-467b-9c5b-86cd85ed3951" name="Default Changelist" comment="create project SortingAlgorithm and add quick sort algorithm to it">
-      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/neu/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/neu/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/neu/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neu/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neu/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/neu/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/neu/QuickSort.java" afterDir="false" />
     </list>
     <list id="d86eb0e9-c775-4f9a-8fcc-23ad492bf5cc" name="update comment to qucik sort" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,62 +20,45 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="AUTO_SHOW_ERRORS_IN_EDITOR" value="false" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="-214">
+              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/Util.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/InsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="34" column="29" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="214">
+              <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/HeapSort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://G:/Language/Java/jdk1.8.0_144/src.zip!/java/lang/Math.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7520">
-              <caret line="428" column="56" selection-start-line="426" selection-start-column="7" selection-end-line="428" selection-end-column="56" />
-              <folding>
-                <element signature="e#17181#17182#0" expanded="true" />
-                <element signature="e#17264#17265#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="13">
+              <caret line="53" column="16" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -82,8 +66,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="671">
               <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/InsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="34" column="29" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -118,10 +111,12 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/neu/Util.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neu/ISort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neu/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/neu/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neu/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/neu/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neu/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neu/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neu/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/neu/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -140,9 +135,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,7 +190,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549555338500" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552014900440" />
     <property name="last_opened_file_path" value="G:/Workspace/idea-workspace" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -215,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.neu.Demo" />
       <module name="SortingAlgorithm" />
@@ -231,6 +227,19 @@
     </configuration>
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.neu.HeapSort" />
+      <module name="SortingAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.neu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neu.MergeSort" />
       <module name="SortingAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -270,10 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -297,12 +307,16 @@
       <workItem from="1548769034096" duration="1866000" />
       <workItem from="1548823774947" duration="657000" />
       <workItem from="1548825034943" duration="8000" />
-      <workItem from="1549517546872" duration="5315000" />
+      <workItem from="1549517546872" duration="6044000" />
+      <workItem from="1549791084153" duration="1599000" />
+      <workItem from="1550637230430" duration="12322000" />
+      <workItem from="1551405082885" duration="597000" />
+      <workItem from="1551936964030" duration="4304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36889000" />
+    <option name="totallyTimeSpent" value="56440000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,7 +335,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25464836" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.2384802" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.5044405" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -329,19 +343,19 @@
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.7939609" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.25044405" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39786857" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.4937833" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.22912966" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39076376" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32978722" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.50177306" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.39076376" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Ant Build" order="4" weight="0.2487395" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.24818109" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32983023" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
@@ -352,7 +366,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.25464836" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.2384802" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.5044405" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -360,19 +374,19 @@
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.2393617" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.25044405" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.39786857" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.4937833" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.22912966" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.39076376" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32978722" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.50177306" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.39076376" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Ant Build" order="4" weight="0.2487395" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.24818109" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32983023" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
@@ -436,9 +450,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/cn/neu/HeapSort.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/neu/HeapSort.java</url>
           <line>21</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/neu/Demo.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/neu/QuickSort.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -459,7 +491,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="23" />
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -467,20 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="29" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -495,17 +513,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/SelectionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        <state relative-caret-position="280">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="34" column="29" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/Language/Java/jdk1.8.0_144/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="214">
+          <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/neu/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="53" column="16" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
         </state>
       </provider>
     </entry>
